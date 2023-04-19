@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class SummonGrabbableSpell : GestureAction
+public class SummonGrabbableGestureAction : GestureAction
 {
     [Header("Summon Objects")]
     [SerializeField] XRGrabInteractable leftSummonable;
